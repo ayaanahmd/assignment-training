@@ -1,0 +1,7 @@
+<div style="width: 300px;">
+    <app-add (complete)="showCount($event)" style="margin-bottom:10px ;"></app-add><br>
+    <h2 style="border:dashed">Current Post Count is {{ postsCount}}</h2><br>
+    <app-view [posts]="postsList" style="margin-top:10px ;"></app-view>
+</div>
+
+
